@@ -1,0 +1,722 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+        
+
+
+
+
+        <div class="container">
+
+
+
+
+            <nav class="topnav">
+                 
+                        <img src="images/logo-light.png" alt="loading" href="index.html" class="logo">
+                        <img src="assets/images/logo-small.png"class="hideimg2"alt="" height="24">
+                   
+               <div class="bar">
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
+               </div>
+           
+        <!-- top nav right elemennts-->
+        
+        <rightnav class="rightnav">
+            <div class="searchcontainer">
+                
+               <button><i class="fa fa-search" aria-hidden="true" href="#"></i></button>
+               
+                
+        
+            </div>
+            <div class="languagecontainer" >
+                <button onclick="language()" class="dropbtn">
+                    <img src="images/us.jpg" hreft="#" alt="...">
+                    <span class="language hide" href="#">English </span>
+                    
+                    <i  class="fa fa-caret-down hide" aria-hidden="true"></i>
+        
+        
+                </button>
+                <div class="dropdown-content" id="dropdown-content">
+                    <a href="">Spanish</a>
+                    <a href="">German</a>
+                    <a href="">Italian</a>
+                    <a href="">Urdu</a>
+
+                </div>
+        
+            </div>
+            <div class="bellicon">
+                <i class="fa fa-bell" aria-hidden="true" type="button"></i>
+        
+            </div>
+            <div class="languagecontainer user">
+                <button onclick="user()">
+                    <img src="https://myrathemes.com/lurid/layouts/blue-horizontal/assets/images/users/avatar-1.jpg" height="" alt="...">
+                    <span class="language hide">Jacky </span>
+                    
+                    <i class="fa fa-caret-down hide" aria-hidden="true"></i>
+        
+        
+                </button>
+                <div class="dropdown-content dc1 " id="dropdown-content1">
+                    <a href="">Inbox
+                        <span class="numberbadge">3</span>
+                    </a>
+                    <a href="">Profile
+                        <span class="numberbadge nb1">1</span>
+                    </a>
+                    <a href="">Setting
+                       
+                    </a>
+                    <a href="">Logout</a>
+
+                </div>
+        </rightnav>
+        
+            </nav>
+
+         
+           
+
+            <!--side nav-->
+    <!--  <sidenav class="sidenav"id="sidenav">
+            <ul1 class="subsiddenav">
+                <li class ="menu title1">menu</li>
+                <li class ="">
+                    <div class="line lined">|</div>
+                 <aa href="index.html" class="dashboardicon ">
+                 <i class="fa fa-th  icon dashicon" aria-hidden="true"></i> 
+                <span class="dashicon " style="color:#3281f2"> Dashboard</span>
+                <i class="nobadge icon1 no1">3 </i>
+                </aa>
+                </li>
+                <li class ="">
+                    <aa href="index.html" class="icon">
+                        <i class="fa fa-file-text icon" aria-hidden="true"></i>
+                   
+                    <span > Sample Pages</span>
+                    <i class="fa fa-plus icon1" aria-hidden="true" onclick="spdrop()" href="javascript:void(0);"></i>
+                    </aa>
+                </li>
+               
+
+            </ul1>
+<div class="droplist1" id="droplist">
+            <ul class="droplist" >
+                <li>invoice</li>
+                <li>Starter</li>
+                <li>Pages</li>
+                <li>invoice</li>
+                <li>Check</li>
+                <li>invoice</li>
+            </ul>
+        </div>
+
+            <ul>
+                <li class="components title1"> COMPONENTS</li>
+
+                <li onclick="spdrop2()">
+                    <aa href="index.html" class="">
+                        <i class="fa fa-file-text icon" aria-hidden="true"></i>
+                    
+                    <span > UI Elements</span>
+                    <i class="fa fa-plus icon1" aria-hidden="true"></i>
+                </aa>
+                </li>
+                <div class="droplist1" id="droplist2">
+                    <ul class="droplist" >
+                        <li>invoice</li>
+                        <li>Starter</li>
+                        <li>Pages</li>
+                        <li>invoice</li>
+                        <li>Check</li>
+                        <li>invoice</li>
+                    </ul>
+                </div>
+
+                    <li onclick="spdrop3()">
+                        <aa href="index.html" class="">
+                            <i class="fa fa-file-o icon" aria-hidden="true"></i>
+                        
+                        <span >Forms</span>
+                        <i class="nobadge icon1" aria-hidden="true">6</i>
+
+                    </aa>
+                    </li>
+                    </li>
+            </ul>
+            
+            <ul>
+                        <li >
+                            <aa href="index.html" class="">
+                                <i class="fa fa-table icon" aria-hidden="true"></i>
+                           
+                            <span > Tables</span>
+                            <i class="fa fa-plus icon1" aria-hidden="true"></i>
+                        </aa>
+                        </li>
+
+                        
+                            <li class ="">
+                                <aa href="index.html" class="">
+                                    <i class="fa fa-pie-chart icon" aria-hidden="true"></i>
+                                
+                                <span >Charts</span>
+                                <i class="fa fa-plus icon1" aria-hidden="true"></i>
+                            </aa>
+                                
+                                <li class="components title1"> More</li>
+                            </li>
+                                <li class ="">
+                                    <aa href="index.html" class="">
+                                        <i class="fa fa-map-marker icon" aria-hidden="true"></i>
+                                    
+                                    <span > Maps</span>
+                                    <i class="fa fa-plus icon1" aria-hidden="true"></i>
+                                </aa>
+                                </li>
+                                    <li class ="">
+                                        <aa href="index.html" class="">
+                                            <i class="fa fa-bar-chart icon" aria-hidden="true"></i>
+                                       
+                                        <span >Graph</span>
+                                        <i class="fa fa-plus icon1" aria-hidden="true"></i>
+                                    </aa>
+                                    </li>
+                                         <li class ="">
+                                <aa href="index.html" class="">
+                                    <i class="fa fa-file-text icon1" aria-hidden="true"></i>
+                                
+                                <span > Ui Elements</span>
+                                <i class="fa fa-plus" aria-hidden="true"></i>
+                            </aa>
+                                         </li>
+
+
+
+
+            </ul>
+
+        </sidenav>
+        -->  
+        
+
+        <div class="main">
+
+            <div class="nav" id="nav">
+          
+                <ul class="bottombar">
+               
+                <li>
+                    <i class="fa fa-home faicon" aria-hidden="true"></i>
+                    
+                    Dashboard</li>
+                 
+                <li class="ui" id="ui" onclick="spdrop()">
+                    <i class="fa fa-suitcase faicon " aria-hidden="true"></i>
+                    UI Elements
+                    <i class="fa fa-caret-down faicon2" aria-hidden="true"></i>
+                </li>
+    
+                <li class="dropdown-menu" id="droplist" >
+                    <a href="ui-buttons.html" class="dropdown-item">Buttons</a>
+                    <a href="ui-cards.html" class="dropdown-item">Cards</a>
+                    <a href="ui-carousel.html" class="dropdown-item">Carousel</a>
+                    <a href="ui-embeds.html" class="dropdown-item">Embeds</a>
+                    <a href="ui-general.html" class="dropdown-item">General</a>
+                    <a href="ui-grid.html" class="dropdown-item">Grid</a>
+                    <a href="ui-media-objects.html" class="dropdown-item">Media Objects</a>
+                    <a href="ui-modals.html" class="dropdown-item">Modals</a>
+                    <a href="ui-progressbars.html" class="dropdown-item">Progress Bars</a>
+                    <a href="ui-tabs.html" class="dropdown-item">Tabs</a>
+                    
+                </li>
+        
+                <li class onclick="spdrop2()">
+                    <i class="fa fa-window-restore faicon" aria-hidden="true"></i>
+                    Sample Pages
+                    <i class="fa fa-caret-down faicon2" aria-hidden="true"></i>
+                </li>
+                <li class="dropdown-menu2" id="droplist2" >
+                    <a href="ui-buttons.html" class="dropdown-item">Buttons</a>
+                    <a href="ui-cards.html" class="dropdown-item">Cards</a>
+                    <a href="ui-carousel.html" class="dropdown-item">Carousel</a>
+                    <a href="ui-embeds.html" class="dropdown-item">Embeds</a>
+                    <a href="ui-general.html" class="dropdown-item">General</a>
+                    <a href="ui-grid.html" class="dropdown-item">Grid</a>
+                    <a href="ui-media-objects.html" class="dropdown-item">Media Objects</a>
+                    <a href="ui-modals.html" class="dropdown-item">Modals</a>
+                    <a href="ui-progressbars.html" class="dropdown-item">Progress Bars</a>
+                    <a href="ui-tabs.html" class="dropdown-item">Tabs</a>
+                    
+                </li>
+                <li>
+                    <i class="fa fa-bar-chart faicon" aria-hidden="true"></i>
+                    Charts
+                    <i class="fa fa-caret-down faicon2" aria-hidden="true"></i>
+                </li>
+                <li>
+                    <i class="fa fa-circle-o-notch faicon" aria-hidden="true"></i>
+                    Forms
+                    <i class="fa fa-caret-down faicon2" aria-hidden="true"></i>
+                </li>
+                <li>
+                <i class="fa-file-text-o faicon" ></i>
+                    More
+                    <i class="fa fa-caret-down faicon2" aria-hidden="true"></i>
+                </li>
+    
+                </li>
+              </ul>
+          
+            </div>
+            <div11 class="row">
+               
+                <h4 class="dashboardtitle">Dashboard</h4>
+          
+               
+                 
+                    <h4 class="lurid">Lurid > Dashboard</h4>
+                  
+                 
+                    
+                
+                
+                
+               
+        
+
+            
+
+       
+        
+        </div11>
+        <row1 class="row1">
+            <card class="card card1">
+             <div1 class="card-body">
+                 <div1 class="cardtop">
+                 <div><a> Cost Per Unit</a></div>
+                <div class="daily badge"><a >Daily</a></div> 
+             </div1>
+             <div class="line">|</div>
+
+             
+             <div class="cardmid">
+                <div class="price">
+                 <span>$17.21</span>
+                </div>
+                <div class="percent">
+                 <span>12.5%</span>
+                 <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                </div>
+             </div>
+             <div class="cardbottom">
+                 
+              <progress id="file" value="70" max="100" class="progressbar">  </progress>
+             </div>
+             
+         </div1>
+            </card>
+
+
+            <card class="card card2 card1">
+                <div class="line linem">|</div>
+                <div1 class="card-body">
+                    <div1 class="cardtop">
+                    <div><a class="wordbreak"> Monthly  Revenue</a></div>
+                   <div class="daily badge"><a >Per Month</a></div> 
+                </div1>
+                
+                <div class="cardmid">
+                   <div class="price ">
+                    <span >$17777.21</span>
+                   </div>
+                   <div class="percent">
+                    <span>122.5%</span>
+                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                   </div>
+                </div>
+                <div class="cardbottom">
+                    
+                 <progress id="file" value="70" max="100" class="progressbar">  </progress>
+                </div>
+                
+            </div1>
+               </card>
+
+            </card>
+           
+            <card class="card card1">
+                <div class="line">|</div>
+             <div1 class="card-body">
+                 <div1 class="cardtop">
+                 <div><a> Cost Per Unit</a></div>
+                <div class="daily badge"><a >Daily</a></div> 
+             </div1>
+             
+             <div class="cardmid">
+                <div class="price">
+                 <span>$17.21</span>
+                </div>
+                <div class="percent">
+                 <span>12.5%</span>
+                 <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                </div>
+             </div>
+             <div class="cardbottom">
+                 
+              <progress id="file" value="70" max="100" class="progressbar">  </progress>
+             </div>
+             
+         </div1>
+            </card>
+
+            <card class="card card1">
+                <div class="line">|</div>
+                <div1 class="card-body">
+                    <div1 class="cardtop">
+                    <div><a> Cost Per Unit</a></div>
+                   <div class="daily badge"><a >Daily</a></div> 
+                </div1>
+                
+                <div class="cardmid">
+                   <div class="price">
+                    <span>$17.21</span>
+                   </div>
+                   <div class="percent">
+                    <span>12.5%</span>
+                    <i class="fa fa-arrow-up" aria-hidden="true"></i>
+                   </div>
+                </div>
+                <div class="cardbottom">
+                    
+                 <progress id="file" value="70" max="100" class="progressbar">  </progress>
+                </div>
+                .
+            </div1>
+               </card>
+
+        
+
+    </row1>
+    <div2121 class="row1">
+        <div1 class="card card3">
+            <div class="line line2">|</div>
+            <div class="cardbody cb1">
+                <div class="title">
+                    <h4>Daily Sales</h4>
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+                <div class="imagediv">
+                <img src="images/piechart.PNG" alt="">
+            </div>
+                <div class="cardinfo">
+                    <div class="portion1">
+                    <h2>5,459</h2>
+                    <p>Total Sales</p>
+                </div>
+                <div class="portion2">
+                    <h2>18</h2>
+                    <p>Open Campaign</p>
+                </div>
+                </div>
+                
+            </div>
+            
+        </div1>
+    
+
+
+    
+        <div1 class="card card3">
+            <div class="line line2">|</div>
+            <div class="cardbody cb1">
+                <div class="title">
+                    <h4>Statistics</h4>
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+                <div class="imagediv">
+                <img src="images/garph2.PNG" alt="">
+            </div>
+                <div class="cardinfo">
+                    <div class="portion1">
+                    <h2>5,459</h2>
+                    <p>Total Sales</p>
+                </div>
+                <div class="portion2">
+                    <h2>18</h2>
+                    <p>Open Campaign</p>
+                </div>
+                </div>
+                
+            </div>
+            
+        </div1>
+   
+
+
+    
+        <div1 class="card card3">
+            <div class="line line2">|</div>
+            <div class="cardbody cb1">
+                <div class="title">
+                    <h4>Total Revenue</h4>
+                    <i class="fa fa-ellipsis-v" aria-hidden="true"></i>
+                </div>
+                <div class="imagediv">
+                <img src="images/graph2.PNG" alt="">
+            </div>
+                <div class="cardinfo">
+                    <div class="portion1">
+                    <h2>5,459</h2>
+                    <p>Total Sales</p>
+                </div>
+                <div class="portion2">
+                    <h2>18</h2>
+                    <p>Open Campaign</p>
+                </div>
+                </div>
+                
+            </div>
+            
+        </div1>
+    </div2121>
+
+
+    <row3 class="row3">
+        <div class="tablediv">
+        <div class="body">
+    
+          <div class="heading">
+                <h4 class="title">Recent Customers</h4>
+                <div class="line line3">|</div>
+                <p class="subtitle">Transaction period from July to August 2022</p>
+            </div>
+            <div class="scroll">
+            <table class="table">
+            
+                <tr class="tab1">
+                    
+                    <th>Customer </th>
+                    <th>Phone</th>
+                    <th>Email</th>
+                    <th>Location</th>
+                    <th>Create date</th>
+                  </tr>
+                
+                  <tr class="tab2">
+                    <td class="user">
+                        <img src="https://myrathemes.com/lurid/layouts/blue-vertical/assets/images/users/avatar-4.jpg" alt="">
+                        Paul J friend
+                         </td>
+                    <td>92332245876</td>
+                    <td>paul@gmail.com</td>
+                    <td class="location">New York</td>
+                    <td>7/7/2021</td>
+                  </tr>
+    
+                  <tr>
+                    <td class="user">
+                        <img src="https://myrathemes.com/lurid/layouts/blue-vertical/assets/images/users/avatar-4.jpg" alt="">
+                        Paul J friend
+                         </td>
+                    <td>92332245876</td>
+                    <td>paul@gmail.com</td>
+                    <td class="location">New York</td>
+                    <td>7/7/2021</td>
+                  </tr>
+    
+                  <tr class="tab2">
+                    <td class="user">
+                        <img src="https://myrathemes.com/lurid/layouts/blue-vertical/assets/images/users/avatar-4.jpg" alt="">
+                        Paul J friend
+                         </td>
+                    <td>92332245876</td>
+                    <td>paul@gmail.com</td>
+                    <td class="location">New York</td>
+                    <td>7/7/2021</td>
+                  </tr>
+    
+                  <tr>
+                    <td class="user">
+                        <img src="https://myrathemes.com/lurid/layouts/blue-vertical/assets/images/users/avatar-4.jpg" alt="">
+                        Paul J friend
+                         </td>
+                    <td>92332245876</td>
+                    <td>paul@gmail.com</td>
+                    <td class="location">New York</td>
+                    <td>7/7/2021</td>
+                  </tr>
+    
+                 
+                  
+            </table>
+        </div>
+        </div>
+    </div>
+      <!-- row3 2-->
+    
+    
+       <div class="tablediv tb2">
+        <div class="body">
+    
+          <div class="heading">
+            <div class="line line3">|</div>
+                <h4 class="title">Account Transactions</h4>
+                <p class="subtitle">Transaction period from July to August 2022</p>
+            </div>
+            <table class="table">
+            
+                
+                
+                  <tr >
+                    <td >
+                        
+                        <h5>42201****1234</h5>
+                        <span>11 April 2020</span>
+                         </td>
+                    <td>
+                        <h5>$ 7.49</h5>
+                        <span>Amount</span>
+                    </td>
+                    <td class="visa">
+                        <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <div class="vh" >Visa</div>
+                    </td>
+    
+    
+                    <td>
+                        <h5>Hellen James</h5>
+                        <span>Pay</span>
+                         </td>
+                        
+                </td>
+                  </tr>
+                 
+    
+                 
+    
+                  <tr >
+                    <td >
+                        
+                        <h5>42201****1234</h5>
+                        <span>11 April 2020</span>
+                         </td>
+                    <td>
+                        <h5>$ 7.49</h5>
+                        <span>Amount</span>
+                    </td>
+                    <td class="visa">
+                        <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <div class="vh">Visa</div>
+                    </td>
+    
+    
+                    <td>
+                        <h5>Hellen James</h5>
+                        <span>Pay</span>
+                         </td>
+                        
+                </td>
+                  </tr>
+                  
+                  <tr >
+                    <td >
+                        
+                        <h5>42201****1234</h5>
+                        <span>11 April 2020</span>
+                         </td>
+                    <td>
+                        <h5>$ 7.49</h5>
+                        <span>Amount</span>
+                    </td>
+                    <td class="visa">
+                        <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <div class="vh">Visa</div>
+                    </td>
+    
+    
+                    <td>
+                        <h5>Hellen James</h5>
+                        <span>Pay</span>
+                         </td>
+                        
+                </td>
+                  </tr>
+                  
+                  <tr >
+                    <td >
+                        
+                        <h5>42201****1234</h5>
+                        <span>11 April 2020</span>
+                         </td>
+                    <td>
+                        <h5>$ 7.49</h5>
+                        <span>Amount</span>
+                    </td>
+                    <td class="visa">
+                        <i class="fa fa-cc-visa" aria-hidden="true"></i>
+                        <div class="vh">Visa</div>
+                    </td>
+    
+    
+                    <td>
+                        <h5>Hellen James</h5>
+                        <span>Pay</span>
+                         </td>
+                        
+                </td>
+                  </tr>
+                  
+                       
+                  </tr>
+    
+                 
+                  
+            </table>
+        </div>
+    </div>
+    
+    
+    
+    <!-- row3 2 ends-->
+    
+    
+    
+    
+    </row3>
+    
+    <footer class="footer">
+      
+            <div class="col">
+                2020 © Lurid.
+            </div>
+            <div class="col2">
+                Design & Develop by Shahzaib
+            </div>
+        
+    </footer>
+
+
+        </div>
+    
+        
+    
+  <script src="app.js"></script>
+    
+</body>
+</html>
