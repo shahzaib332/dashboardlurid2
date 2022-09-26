@@ -1852,6 +1852,7 @@ h4 .title{
 }
 .dropdown-menu2{
     display: none;
+    width: 150px;
 
 }
 
@@ -1878,18 +1879,14 @@ h4 .title{
             display: flex;
             flex-direction: column;
             position: absolute;
-             top: 68px; 
+            top: 68px;
             background-color: white;
-             left: 213px; 
-             display: none;
-            
-             box-shadow: 0 4px 18px rgb(0 0 0 / 11%); 
-          
+            left: 213px;
+            display: none;
+            box-shadow: 0 4px 18px rgb(0 0 0 / 11%);
             margin: 0;
-            
             z-index: 1000;
-            width: 120px;
-         
+            width: 148px;
     }
         
         
@@ -1917,7 +1914,7 @@ h4 .title{
         border: 0;
         text-decoration: none;
         /* padding-top: 21px; */
-        width: 144px;
+        width: 150px;
     
     
         }
@@ -1939,7 +1936,7 @@ h4 .title{
             margin: 0;
             
             z-index: 1000;
-            width: 120px;
+            width: 150px;
             
          
     }
